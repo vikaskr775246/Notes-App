@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
+    <style>
+
+
+        .menu_show {
+            top: 35px !important;
+            right: -90px !important;
+            opacity: 1 !important;
+            display: block !important;
+        }
+        .menu_hide {
+            opacity: 0 !important;
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="plus-icon"><i class=" fa-solid fa-plus fa-2x"></i></div>
+    <header>
+        <nav>
+            <div id="logo">notes app</div>
+            <div class="box">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <span id="search_icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <form action="">
+            <h1>add a new note
+                <span id="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </h1>
+            <label for="title">title</label>
+            <input type="text" name="title" id="title" placeholder="Enter Title">
+            <label for="textarea">description</label>
+            <textarea name="description" id="textarea" cols="30" rows="5" placeholder="Enter Description"></textarea>
+            <button id="add_note">add note</button>
+        </form>
+    </div>
+    <section>
+    </section>
+    <footer>Lorem ipsum dolor sit amet consectetur.</footer>
+    </body>
+    <script src="script.js"></script>
+
+</html>
