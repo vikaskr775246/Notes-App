@@ -293,6 +293,18 @@ footer {
     box-shadow: var(--shadow);
 }
 
+.menu_show {
+    top: 35px !important;
+    right: -90px !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.menu_hide {
+    opacity: 0 !important;
+    display: none !important;
+}
+
 @media screen and (max-width:590px) {
     .card {
         width: 85%;
